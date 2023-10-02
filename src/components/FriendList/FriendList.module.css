@@ -1,0 +1,37 @@
+.friend-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+  width: 300px;
+  margin-bottom: 100px;
+}
+
+.status {
+  translate: -20px 20px;
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: rebeccapurple;
+  border-radius: 50%;
+}
+
+.green {
+  background-color: green;
+}
+
+.red {
+  background-color: red;
+}
+
+.item {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+  padding-right: 100px;
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}

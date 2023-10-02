@@ -1,14 +1,13 @@
-import { Profile } from "./Profile.jsx";
-import { Statistics } from "./Statistics.jsx";
-import { FriendList } from "./FriendList.jsx";
-import { TransactionHistory } from "./TransactionHistory.jsx";
+import { Profile } from "./Profile/Profile.jsx";
+import { Statistics } from "./Statistics/Statistics.jsx";
+import { FriendList } from "./FriendList/FriendList.jsx";
+import { TransactionHistory } from "./TransactionHistory/TransactionHistory.jsx";
 import user from '../users/user.json'
 import data from '../statistics/data.json'
 import friends from '../friends/friends.json'
 import transactions from '../transactions/transactions.json'
 
 export const App = () => {
-  console.log(transactions);
   return (
 <>
     {/* Task 1 */}
